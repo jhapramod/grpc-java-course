@@ -7,6 +7,11 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="all" />
+      <option name="name" value="All Sabre-mirrored and -hosted repositories" />
+      <option name="url" value="https://proxy-gcp-dev.repository.sabre.com/content/repositories/all_repos/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />
@@ -15,6 +20,16 @@
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="gcp.repository.sabre.com" />
+      <option name="name" value="gcp.repository.sabre.com" />
+      <option name="url" value="https://proxy-gcp-dev.repository.sabre.com/repository/maven-all" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://proxy-gcp-dev.repository.sabre.com/repository/maven-all" />
     </remote-repository>
   </component>
 </project>
